@@ -1,0 +1,87 @@
+[
+  {
+    "Text": "Mask",
+    "Checked": false,
+    "id": "1"
+  },
+  {
+    "Text": "Paintball Marker",
+    "Checked": false,
+    "id": "2"
+  },
+  {
+    "Text": "Paintballs",
+    "Checked": false,
+    "id": "3"
+  },
+  {
+    "Text": "Jersey",
+    "Checked": false,
+    "id": "4"
+  },
+  {
+    "Text": "Pants",
+    "Checked": false,
+    "id": "5"
+  },
+  {
+    "Text": "Cleats",
+    "Checked": false,
+    "id": "6"
+  },
+  {
+    "Text": "Towels",
+    "Checked": false,
+    "id": "7"
+  },
+  {
+    "Text": "Tools",
+    "Checked": false,
+    "id": "8"
+  },
+  {
+    "Text": "Pads",
+    "Checked": false,
+    "id": "9"
+  },
+  {
+    "Text": "Lens",
+    "Checked": false,
+    "id": "10"
+  },
+  {
+    "Text": "Pod Pack",
+    "Checked": false,
+    "id": "11"
+  },
+  {
+    "Text": "Pods",
+    "Checked": false,
+    "id": "12"
+  },
+  {
+    "Text": "Beanie",
+    "Checked": false,
+    "id": "13"
+  },
+  {
+    "Text": "Headgear",
+    "Checked": false,
+    "id": "14"
+  },
+  {
+    "Text": "Gloves",
+    "Checked": false,
+    "id": "15"
+  },
+  {
+    "Text": "Socks",
+    "Checked": false,
+    "id": "16"
+  },
+  {
+    "Text": "Shorts",
+    "Checked": false,
+    "id": "17"
+  }
+]

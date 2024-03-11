@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week 12 Crud app</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="container">
+    <!--form control makes everything look nice and clean, I wanted to add some instructions for the user to have some direction with examples to start off and be able to navigate easily.-->
+    <div id="new-gear" class="form-control">
+      <h2><u>Add New Gear</u></h2>
+      <p>
+        <h5>Step 1:</h5> Add gear to your gear bag checklist in text box below. <br />
+        <h5> Step 2:</h5> Once you put the gear on the list then "like" it to make sure the gear is accounted for. <br /><h5>Step 3:</h5> When you are starting to pack for the trip, use the thumbs up to "delete" the item & show what is left to pack for the trip! 
+      </p>
+
+      <br />
+      <!-- form control makes it look nice from bootstrap, basic use of emojis for some fun  -->
+      <div class="form-control"  >
+            <h5>👇Enter Gear Here 👇</h5>
+            <!--Gathering users gear inputs-->
+            <textarea id="gearbox" > 
+                
+            </textarea>
+        </div>
+        <button
+        onclick="sendGear()"
+        id="addGear"
+        class="btn btn-success form-control"
+        
+        >
+        Add Gear
+    </button>
+
+</div>
+<!-- Space on the page where the gear list is displayed-->
+    <div id="gear-container" > 
+        
+    </div>
+
+    
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="crudapp.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
